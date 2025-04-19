@@ -12,6 +12,5 @@ This is a toy project created to practice:
 2. Open `index.html` in your browser
 
 ```bash
-git clone https://github.com/namakamu/countify.git
-cd countify
+git clone https://github.com/namakamu/repository.git
 
