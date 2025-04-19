@@ -1,6 +1,6 @@
 # Practice
 
-🎯 A practice repository using vanilla <i class="fa fa-html5" style="font-size:2em; color:orangered;"></i>, CSS, and JavaScript.
+🎯 A practice repository using vanilla ![HTML5](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg), CSS, and JavaScript.
 
 ## 🧠 Purpose
 This is a toy project created to practice:
