@@ -1,4 +1,4 @@
-🧪 Practice Projects
+<h1>🧪 Practice Projects</h1><br>
 🎯 A collection of small experimental projects created for learning and hands-on practice in web development and basic programming.
 
 🛠️ Built with :
@@ -20,9 +20,9 @@ git clone https://github.com/yourname/repository.git
 ```bash
 cd repository/project-folder-name
 ```
-3. Run the project :
--> For web projects : open index.html in your browser
--> For Python projects : run using python file_name.py
+3. Run the project :<br>
+-> For web projects : open index.html in your browser<br>
+-> For Python projects : run using python file_name.py<br>
 
 
 
