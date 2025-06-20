@@ -22,7 +22,7 @@ cd repository/project-folder-name
 ```
 3. Run the project :<br>
 -> For web projects : open index.html in your browser<br>
--> For Python projects : run using python file_name.py<br>
+-> For Python projects : run using python file_name.py (Like seriously u don't understand how to run a python file?)<br>
 
 
 
