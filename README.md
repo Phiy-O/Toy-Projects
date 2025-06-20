@@ -5,11 +5,11 @@
 <p float="left"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" alt="HTML5" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" alt="CSS3" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" alt="JavaScript" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" alt="Python" /> </p>
 
 🧠 Purpose
-This repository was created to:
--> Explore and practice core programming concepts
--> Build small projects and test ideas in a simple environment
--> Reinforce understanding of HTML, CSS, JavaScript, Python, and more
--> Serve as a personal learning log and playground
+This repository was created to:<br>
+-> Explore and practice core programming concepts<br>
+-> Build small projects and test ideas in a simple environment<br>
+-> Reinforce understanding of HTML, CSS, JavaScript, Python, and more<br>
+-> Serve as a personal learning log and playground<br>
 
 🚀 How to Run
 1. Clone this repository :
