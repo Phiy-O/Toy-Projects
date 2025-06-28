@@ -27,14 +27,8 @@ def load_custom_font(path):
     full_path = os.path.abspath(path)
     ctypes.windll.gdi32.AddFontResourceExW(full_path, FR_PRIVATE, 0)
     
-# Color
-BG_COLOR = "#1e1e2f"      # background utama
-TEXT_COLOR = "#ffffff"    # teks
-ACCENT_COLOR = "#00bfff"  # tombol utama
-
-    
 # Font load
-load_custom_font("./assets/alarm_clock.ttf")
+load_custom_font("./assets/alarm_clock.ttf") # you can change this by yourself, from adding new font whatever u want;)
 FONT_NAME = "alarm clock"
     
 input_time = None
