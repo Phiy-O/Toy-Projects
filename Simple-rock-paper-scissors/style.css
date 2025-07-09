@@ -1,0 +1,111 @@
+* {
+    font-family: 'Verdana', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0.5em 0;
+    font-family: "Bangers", system-ui;
+    font-size: clamp(2.5rem, 6vw, 4em);
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-align: center;
+    text-shadow:
+        4px 4px 0 #000,
+       -4px 4px 0 #000,
+        4px -4px 0 #000,
+       -4px -4px 0 #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.container-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+.container-button button {
+    font-size: clamp(2rem, 6vw, 4em);
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    border: rgb(85, 85, 85) solid 4px;
+    background-color: #ffffff00;
+    transition: background-color 0.2s ease;
+}
+
+.container-button button:hover {
+    background-color: rgb(85, 85, 85);
+    cursor: pointer;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#status {
+    font-size: clamp(1rem, 3vw, 1.5em);
+    font-weight: 600;
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+#display-battle {
+    font-size: clamp(1.2rem, 4vw, 2em);
+    font-weight: 600;
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+.desc-score {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    border: black solid 2px;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.reset-button {
+    font-size: clamp(1rem, 3vw, 1.5em);
+    font-weight: 600;
+    padding: 0.3em 0.8em;
+    margin: 0.6em 0;
+    border: none;
+    background-color: rgb(85, 85, 85);
+    color: #ffffff;
+    border-radius: 0.3em;
+    transition: background-color 0.2s ease;
+}
+
+.reset-button:hover {
+    cursor: pointer;
+    background-color: rgb(66, 66, 66);
+}
+
+@media (max-width: 600px) {
+  .desc-score {
+    font-size: 0.8em;
+    padding: 0.3em 0.7em;
+    gap: 0.5em;
+  }
+}
