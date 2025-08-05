@@ -1,0 +1,95 @@
+:root{
+    /* Base Colors */
+    --color-bg: #F3E9DC;
+    --color-white: #FFFFFF;
+    --color-dark: #333333;
+
+    /* Accent Colors */
+    --color-primary: #D96F32;     /* Button / Call to Action */
+    --color-primary-dark: #C75D2C; /* Hover / Headings */
+    --color-highlight: #F8B259;   /* Output text / border */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', 'sans-serif';
+}
+
+body {
+    background-color: var(--color-bg);
+}
+
+.container{
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    background-color: var(--color-white);
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    font-size: 1.5em;
+    text-align: center;
+    color: var(--color-primary-dark);
+}
+
+.label-p{
+    font-size: 0.7em;
+    padding-left: 0.1em;
+    padding-bottom: 0.2em;
+}
+
+#label-palindrom{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#input-box{
+    height: 30px;
+    padding-left: 5px;
+    border: 2px solid var(--color-primary);
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#input-box:focus{
+    outline: none;
+    box-shadow: 0 0 5px var(--color-primary-dark);
+}
+
+#button-check{
+    font-weight: bold;
+    height: 30px;
+    cursor: pointer;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+#button-check:hover{
+    background-color: var(--color-primary-dark);
+}
+
+#display-palindrom {
+    width: 80%;
+    font-size: 1.2em;
+    text-align: center;
+    color: var(--color-highlight);
+}
