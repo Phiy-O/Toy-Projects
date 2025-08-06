@@ -1,0 +1,108 @@
+:root {
+    --color-dark: #7B4019;       /* Coklat tua - teks utama, tombol gelap */
+    --color-primary: #FF7D29;    /* Oranye terang - tombol utama (start) */
+    --color-secondary: #FFBF78;  /* Oranye pastel - background card / hover */
+    --color-light: #FFEEA9;      /* Kuning muda - background utama */
+    --color-white: #ffffff;      /* Putih - teks di tombol gelap */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 10", sans-serif;
+}
+
+body {
+    background-color: var(--color-light);
+}
+
+.container {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 2em;
+}
+
+.display-container{
+    display: flex;
+    justify-content: center;
+}
+
+#display {
+    font-size: 6em;
+    border: 1px solid black;
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: var(--color-dark);
+    background-color: var(--color-light);
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card-container {
+    text-align: center;
+    border: 1px solid black;
+    height: fit-content;
+    width: 330px;
+    border-radius: 8px;
+    background-color: var(--color-secondary);
+    /* background-image: url(assets/totoro-autumn-forest-aesthetic-desktop-wallpaper-preview.jpg); */
+    box-shadow: 5px 5px var(--color-dark);
+}
+
+.title {
+    border: 1px solid black;
+    text-align: center;
+    width: 100px;
+    border-radius: 8px;
+    color: var(--color-dark);
+    background-color: var(--color-light);
+    box-shadow: inset 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.session-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 1em;
+    margin: 8px 0;
+}
+
+#controls > button > img{
+    height: 20px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+#controls{
+    display: flex;
+    gap: 10px;
+}
+
+#pause, #start, #reset {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: var(--color-primary);
+    box-shadow: 3px 3px var(--color-dark);
+    cursor: pointer;
+}
+
+#pause:hover, #start:hover, #reset:hover {
+    background-color: var(--color-primary);
+    filter: brightness(0.7);
+}
+
+#pause:active, #start:active, #reset:active {
+    background-color: var(--color-primary);
+    filter: brightness(0.9);
+}

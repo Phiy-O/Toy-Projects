@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer | Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card-container">
+            <div class="display-container">
+                <p id="display">25:00</p>
+            </div>
+            <div class="session-container">
+                <p id="title" class="title">FOCUS</p>
+                <div id="controls">
+                    <button id="pause" onclick="pause()"><img src="assets/stop-button.png" alt="pause-btn"></button>
+                    <button id="start" onclick="start()"><img src="assets/play-button-arrowhead.png" alt="start-btn" style="height: 16px;"></button>
+                    <button id="reset" onclick="reset()"><img src="assets/undo.png" alt="reset-btn"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
