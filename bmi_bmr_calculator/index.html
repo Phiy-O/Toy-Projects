@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card-container">
+            <div class="option">
+                <div class="bmi-page" id="bmi-page">BMI</div>
+                <div class="bmr-page" id="bmr-page">BMR</div>
+            </div>
+            <div class="gender" id="gender">
+                <button class="man-symbol" id="man-btn">
+                    <img src="assets/man.png" alt="man" height="45">
+                </button>
+                <button class="woman-symbol" id="woman-btn">
+                    <img src="assets/female.png" alt="female" height="50">
+                </button>
+                <button class="gay-symbol" id="gay-btn">
+                    <img src="assets/same-sex.png" alt="iyuhh.. gay" height="50">
+                </button>
+            </div>
+            <div class="input-container">
+                <label for="age" id="label-age">
+                    <p class="age">Umur</p>
+                    <input type="text" id="age" placeholder="type age..">
+                </label>
+                <label for="tinggi" id="label-tinggi">
+                    <p class="tinggi">Tinggi Badan</p>
+                    <input type="text" id="tinggi" placeholder="height in cm..">
+                </label>
+                <label for="berat" id="label-berat">
+                    <p class="berat">Berat Badan</p>
+                    <input type="text" id="berat" placeholder="weight in kg..">
+                </label>
+            </div>
+            <p id="result">Result</p>
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+/* Cause i too lazy for styling i'm just telling chatgpt to do it for me haha.. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.card-container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Option (BMI & BMR) */
+.option {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.option div {
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.option div:hover {
+  background: #e5e7eb;
+}
+
+/* Gender buttons */
+.gender {
+  display: none;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.gender button {
+  background: none;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.gender button.active {
+    border-color: #3b82f6;
+}
+
+.gender button:hover {
+  border-color: #3b82f6;
+}
+
+/* Input style */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.input-container input:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+#label-age {
+    display: none;
+}
+
+/* Result */
+#result {
+  margin: 15px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #374151;
+  text-align: center;
+}
+
+/* Submit button */
+#submit {
+  width: 100%;
+  padding: 10px;
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#submit:hover {
+  background: #2563eb;
+}
